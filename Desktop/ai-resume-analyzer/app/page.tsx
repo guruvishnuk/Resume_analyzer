@@ -1,10 +1,11 @@
-export default function(){
-  return(
+import Navbar from "./components/page";
+
+export default function HomePage() {
+  return (
     <main>
-      <div>
-        <h1>Resume Analyzer</h1>
-        <h2>Analyze the resume with AI</h2>
-      </div>
+      <Navbar />
+      <h1>AI Resume Analyzer</h1>
+      <p>Analyze your resume with AI.</p>
     </main>
-  )
+  );
 }
