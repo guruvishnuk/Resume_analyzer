@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import ResumeUpload from "@/components/ResumeUpload";
 
 export default function Home() {
   return (
@@ -12,8 +13,8 @@ export default function Home() {
           </h1>
 
           <p className="mt-5 text-lg text-gray-600">
-            Upload your resume and compare it with a job description to
-            discover your strengths, missing skills, and improvement areas.
+            Upload your resume and compare it with a job description to discover
+            your strengths, missing skills, and improvement areas.
           </p>
         </div>
 
@@ -28,24 +29,7 @@ export default function Home() {
               Upload your resume in PDF format.
             </p>
 
-            <div className="mt-6 flex min-h-56 items-center justify-center rounded-xl border-2 border-dashed border-gray-300 bg-gray-50">
-              <div className="text-center">
-                <p className="font-medium text-gray-700">
-                  Drag & drop your resume
-                </p>
-
-                <p className="mt-2 text-sm text-gray-500">
-                  or choose a PDF file
-                </p>
-
-                <button
-                  type="button"
-                  className="mt-4 rounded-lg bg-gray-900 px-5 py-2.5 text-sm font-medium text-white hover:bg-gray-800"
-                >
-                  Choose File
-                </button>
-              </div>
-            </div>
+            <ResumeUpload />
           </div>
 
           {/* Job Description */}
