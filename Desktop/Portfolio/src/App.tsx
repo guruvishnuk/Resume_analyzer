@@ -9,7 +9,6 @@ import { ProjectShowcase } from './components/projects/ProjectShowcase';
 import { PhilosophyGrid } from './components/philosophy/PhilosophyGrid';
 import { ComponentPlayground } from './components/playground/ComponentPlayground';
 import { GithubDashboard } from './components/github/GithubDashboard';
-import { TestimonialsPlaceholder } from './components/testimonials/TestimonialsPlaceholder';
 import { TagCloud } from './components/tags/TagCloud';
 import { HireMeFlow } from './components/process/HireMeFlow';
 import { ContactControlPanel } from './components/contact/ContactControlPanel';
@@ -27,7 +26,6 @@ export function App() {
       <PhilosophyGrid />
       <ComponentPlayground />
       <GithubDashboard />
-      <TestimonialsPlaceholder />
       <TagCloud />
       <HireMeFlow />
       <ContactControlPanel />
